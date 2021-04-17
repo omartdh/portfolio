@@ -35,3 +35,9 @@ License for this app is : MIT
 
 
 ![Third img showing the Portfolio layout](images/read_me_image3.jpg)
+
+
+![4th img showing the mobile version](images/mobile1.jpg)
+
+
+![5th img showing the mobile version wih nav bar](images/mobile2.jpg)
