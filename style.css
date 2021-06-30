@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Arvo', serif;
 }
 .navbar {
-    z-index: 2000;
+    z-index: 12000;
     position: fixed;
     width: 100%;
     background: rgba(26, 25, 25, 0.94);
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header {
-    margin-top: 41px;
+    margin-top: 53px;
     position: absolute;
     top: 0;
     left: 0;
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 9997;
     transition: all 0.5s;
     padding: 3px 16px 0 0;
-    background: rgba(27, 27, 27, 0.658);
+    /* background: rgba(27, 27, 27, 0.658); */
     overflow-y: auto;
     text-align: center;
 }
@@ -102,10 +102,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile img {
-    margin: 15px auto;
+    margin: 25px auto;
     display: block;
-    width: 120px;
-    border: 8px solid #2c2f3f;
+    width: 189px;
+    border: 7px solid #2c2f3f;
 }
 
 #header .profile h1 a,
@@ -117,14 +117,14 @@ h1, h2, h3, h4, h5, h6 {
 #main {
     margin-top:280px ;
 }
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
     #header {
         top: -280px;
     }
     #main {
         margin-top: 0;
     }
-}
+} */
 
 
 #hero {
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1{
     text-align: center;
-    margin: 350px 0 10px 0;
+    margin: 357px 0 10px 0;
     font-size: 64px;
     font-weight: 700;
     color: white;
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .line-2, .line-3 {
-    height: 5px;
+    height: 3px;
     background-color: black;
     margin: 50px 50px 50px 50px;
 }
@@ -211,6 +211,32 @@ h1, h2, h3, h4, h5, h6 {
 .btn-info {
     margin-bottom: 10px;
 }
+
+.githun-link, .linkedin-link {
+    font-size: 25px;
+    color: black;
+    font-family: 'Arvo', serif;
+}
+.githubLogo, .linkedinLogo {
+    padding-right: 8px;
+    color: #6262c7;
+}
+
+.contact p {
+    font-size: 20px;
+    margin-bottom: 58px;
+}
+
+.contact h2 {
+    margin-bottom: 38px;
+}
+
+iframe {
+    margin-top: 35px;
+    margin-bottom: 19px;
+}
+
+/* FOOTER */
 
 footer {
     background: #111;
