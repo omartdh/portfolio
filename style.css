@@ -314,3 +314,12 @@ transition: color .4s ease;
     opacity: .4;
     font-weight: 200;
 }
+
+/* .portfolio img {
+    width: 20rem;
+
+} */
+
+.p-card {
+    width: 20px;
+}
