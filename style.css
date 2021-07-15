@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 235px;
+    /* height: 235px; */
     transition: all ease-in-out 0.5s;
     z-index: 9997;
     transition: all 0.5s;
@@ -238,7 +238,7 @@ iframe {
 
 /* FOOTER */
 
-footer {
+/* footer {
     background: #111;
     height: auto;
     width: 100vw;
@@ -313,7 +313,7 @@ transition: color .4s ease;
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
-}
+} */
 
 /* .portfolio img {
     width: 20rem;
@@ -323,3 +323,97 @@ transition: color .4s ease;
 .p-card {
     width: 20px;
 }
+
+footer {
+    background: rgb(14 15 14 / 91%);
+    width: 100vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0px;
+    color: #bbb5b5;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .footer-content h3 {
+    font-size: 21px;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 3rem;
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin-top: 19px;
+    margin-bottom: 1px;
+    text-align: center;
+    max-width: 500px;
+    line-height: 28px;
+    font-size: 18px;
+  }
+  
+  .socials{
+    list-style: none;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 0 1rem 0;
+  }
+  
+  .socials li{
+    /* margin: 0 10px; */
+    font-size: 31px;
+  }
+  
+  .socials a{
+    text-decoration: none;
+    color: #bbb5b5;
+  
+  }
+  
+  .socials a i{
+    font-size: 32 px;
+    text-align: center;
+    transition: color .4s ease;
+    letter-spacing: 20px;    
+  }
+  
+  .socials a:hover i {
+    color: aqua;
+  }
+  
+  .footer-bottom{
+    background: rgb(29, 28, 28);
+    width: 100vw;
+    padding: 1px 0;
+    height: 53px;
+    text-align: center;
+  }
+  
+  .footer-bottom p{
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 15px !important;
+  }
+  
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+  }
+
+  /* *, *::before, *::after {
+    box-sizing: border-box;
+    margin-bottom: 0px;
+  } */
