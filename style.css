@@ -117,14 +117,14 @@ h1, h2, h3, h4, h5, h6 {
 #main {
     margin-top:280px ;
 }
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
     #header {
         top: -280px;
     }
     #main {
         margin-top: 0;
     }
-}
+} */
 
 
 #hero {
@@ -132,6 +132,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 50vh;
     background: url("images/img22.jpeg") no-repeat top center;
     background-size: cover;
+}
+
+@media (max-width: 1199px) {
+    #hero {
+        height: 72vh;
+    }
 }
 
 #hero::before {
