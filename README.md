@@ -10,7 +10,7 @@ License for this app is : MIT
 - [Demo](#demo)
 
 ## Description:
-    This project is a portfolio website about me, showing information about me such as my contact info and some of my previous apps that I developed, as well as a cklickable resemue button that it allows you to download my resume 
+    This project is a portfolio website about me, showing information about me such as my contact info and some of my previous apps that I developed, as well as a clickable resume button that it allows you to download my resume 
     -used a form-group class to create a form to allow the user to input their info and add a message.
     -used a card class and 3 row classes to put 3 pictures on a stack order and made it mobile accessible, Pictures are 3 we applications that I worked on during the bootcamp. 
 
