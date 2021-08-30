@@ -1,6 +1,13 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
 body {
     font-family: "Open Sans", sans-serif;
     color: rgb(32, 32, 32);
+}
+.container{
+    /* margin-left: -56px !important ; */
 }
 a {
     color: rgb(33, 114, 165);
@@ -86,28 +93,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 200;
     font-family: 'Arvo', serif;
 }
-/* .github, .linkedin {
-    font-size: 18px;
-    display: inline-block;
-    background: rgb(41, 39, 39);
-    color: white;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50px;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-} */
 
-#header .profile img {
+#header img {
     box-shadow: 0.75em 0.75em 1em;
     margin: 43px auto;
     display: block;
     width: 167px;
-    color: black;
-    /* border: 7px solid #2c2f3f; */
+    /* border: 5px solid #37373b; */
 }
 
 #header .profile h1 a,
@@ -126,18 +118,22 @@ h1, h2, h3, h4, h5, h6 {
     }
 } */
 
-
 #hero {
     width: 100%;
-    height: 43vh;
-    /* background: url("images/img22.jpeg") no-repeat top center; */
+    height: 49vh;
+    background: url("images/img22.jpeg") no-repeat top center;
     background-color: #0a0909db;
-    /* background-size: cover; */
-}
+    background-size: cover;
+    /* margin-left: -56px !important ; */}
 
 @media (max-width: 385px) {
     #hero {
+        width: 431px;
         height: 65vh;
+        margin-right: auto;
+    }
+    #header img {
+        margin: 41px 112px;
     }
 }
 
@@ -161,20 +157,20 @@ h1, h2, h3, h4, h5, h6 {
     margin: 306px auto 10px auto;
     font-size: 41px;
     font-weight: 700;
-    color: #c1bdbc;
+    color: #c2c7cc;
 }
 #hero p {
     text-align: center;
     margin-bottom: 50px;
     font-size: 23px;
-    color: #c1bdbc;
+    color: #c2c7cc;
 }
 
 .about {
     margin-top: 30px;
     font-weight: 500;
     font-size: 22px;
-    color: rgb(37, 37, 54);
+    color: black
 }
 .about .content ul {
     margin-left: 10px;
@@ -210,8 +206,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .line-1{
     height: 3px;
-    background-color:white;
-    margin: 0em 0em 2em 0em ;
+    background-color: #ffffff;
+    margin: 2em 0em;
 }
 .line-2{
     height: 3px;
@@ -259,7 +255,7 @@ iframe {
 
 footer {
     background: rgb(14 15 14 / 91%);
-    width: 100vw;
+    width: 100%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 0px;
     color: #bbb5b5;
@@ -346,7 +342,4 @@ footer {
     font-weight: 200;
   }
 
-  /* *, *::before, *::after {
-    box-sizing: border-box;
-    margin-bottom: 0px;
-  } */
+
