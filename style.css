@@ -6,9 +6,6 @@ body {
     font-family: "Open Sans", sans-serif;
     color: rgb(32, 32, 32);
 }
-.container{
-    /* margin-left: -56px !important ; */
-}
 a {
     color: rgb(33, 114, 165);
 }
@@ -126,9 +123,9 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     /* margin-left: -56px !important ; */}
 
-@media (max-width: 385px) {
+@media (max-width: 450px) {
     #hero {
-        width: 431px;
+        width: 445px;
         height: 65vh;
         margin-right: auto;
     }
