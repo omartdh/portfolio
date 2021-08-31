@@ -121,7 +121,9 @@ h1, h2, h3, h4, h5, h6 {
     background: url("images/img22.jpeg") no-repeat top center;
     background-color: #0a0909db;
     background-size: cover;
-    /* margin-left: -56px !important ; */}
+    opacity: 0.98;
+    /* margin-left: -56px !important ; */
+}
 
 @media (max-width: 450px) {
     #hero {
@@ -138,23 +140,34 @@ h1, h2, h3, h4, h5, h6 {
     .footer-bottom {
         width: 445px !important;
     }
+    .about h2, .about p {
+        margin: 9px 0px 10px 37px;
+    }
+    #img2 {
+        margin: 0px 7px 0px 44px;
+    }
+    .line-2 {
+        margin: 50px -22px 79px 40px !important;
+    }
+    .line-3 {
+        margin: 50px -22px 79px 40px !important;
+    }
+    .contact h2, .contact h4, .contact p, .contact i{
+        margin-left: 16%;
+        text-align: center;
+    }
+    .githun-link, .linkedin-link, .githubLogo, .linkedinLogo {
+        margin-left: 21%;
+        margin-bottom: 20px;
+    }
+    #googlm {
+        margin-top: 5%;
+        margin-bottom: 0px;
+        margin-left: 10%;
+        margin-right: 0px;
+    }
 }
 
-    /* #hero::before {
-        content: "";
-        background: rgb(5, 13, 24, 0.3);
-        position: absolute;
-        bottom: 0;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1;
-    } */
-/* #hero .hero-container {
-    position: relative;
-    z-index: 2;
-    min-width: 300px;
-} */
 #hero h1{
     text-align: center;
     margin: 306px auto 10px auto;
@@ -175,34 +188,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 22px;
     color: black
 }
-.about .content ul {
-    margin-left: 10px;
-    list-style: none;
-    padding: 0;
-}
-.about .content ul li {
-    font-size: 22px;
-    margin-left: 10px;
-    padding-bottom: 10px;
-}
-.about .content ul i {
-    margin-left: 10px;
-    font-size: 15px;
-    padding-right: 2px;
-    color: rgb(60, 128, 192);
-}
-.abput .content p:last-child {
-    margin-bottom: 0;
-}
+
 #img2 {
     float: left;
     width: 275px;
     height: 319px;
 }
-.about .content h3, .about .content p {
-    margin-left: 30px;
-    margin-bottom: 20px;
-}
+
 .about .container .section-title {
     margin-bottom: 40px;
 }
@@ -246,11 +238,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 38px;
 }
 
+
 iframe {
     margin-top: 35px;
     margin-bottom: 19px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 .p-card {
     width: 20px;
