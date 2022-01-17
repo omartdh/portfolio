@@ -246,6 +246,19 @@ iframe {
     margin-right: auto;
 }
 
+/* portfolio */
+
+.seeProject{
+    background: none;
+    color: black;
+    border: 0.5px solid black;
+}
+
+.github-btn{
+    background-color: black;
+    color: white;
+}
+
 .p-card {
     width: 20px;
 }
@@ -338,5 +351,6 @@ footer {
     opacity: .4;
     font-weight: 200;
   }
+
 
 
